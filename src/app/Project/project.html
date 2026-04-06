@@ -1,0 +1,14 @@
+
+<div id="block1" class="displayBlock">
+    <ul>
+        @for (project of projects; track project.name) {
+        <li class="projectListItem">
+            <h2 class="projectTitle">{{project.name}}</h2>
+            <p>Date Completed: {{project.date}}</p>
+            <p>Project Difficulty: {{project.difficulty}}</p>
+        </li>
+        } @empty {
+            <p>No Items</p>
+        }
+    </ul>
+</div>
