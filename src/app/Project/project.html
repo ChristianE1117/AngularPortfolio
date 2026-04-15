@@ -1,6 +1,9 @@
+<div class="search-container">
+    <input type="text" [(ngModel)]="searchString" (ngModelChange)="inputChanged($event)" placeholder="Search Projects"/>
+</div>
 
-<div id="block1" class="displayBlock">
-    <ul>
+<div class="projects">
+    <ul class="projects-container">
         @for (project of projects; track project.name) {
         <li class="projectListItem">
             <h2 class="projectTitle">{{project.name}}</h2>
@@ -12,3 +15,5 @@
         }
     </ul>
 </div>
+
+

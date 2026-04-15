@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
 html {
-  background-color: whitesmoke;
+  background-color: #f5EFEB;
 }
 
 #timeLine {
@@ -58,8 +60,7 @@ html {
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: whitesmoke;
+  font-family: 'Poppins', sans-serif;
   margin: auto;
   text-align: auto;
   font-size: large;
@@ -98,29 +99,25 @@ body {
 
 /* --------------- Top Nav Styles --------------- */
 .topnav {
-  overflow: hidden;
-  background-color: #333;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #2b383d;
+  z-index: 10;
   top: 0;
   position: sticky;
   align-content: center;
 }
 
 .topnav a {
-  display: inline-block;
+  padding: 20px;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
   text-align: center;
-  width: 15%;
-}
-
-.topnav a:first-of-type {
-  margin-left: 6%;
 }
 
 a:hover {
-    background-color: #2355c9;
+    background-color: #567C8D;
 }
 
 .dark {

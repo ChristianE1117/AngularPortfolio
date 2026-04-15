@@ -1,0 +1,18 @@
+.header-container {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 300px;
+    place-items: center;
+    background-color: #192124;
+}
+
+.name-container h1 {
+    margin: 0;
+}
+
+.image-outline img {
+    height: 180px;
+    border-radius: 200px;
+    border: solid 3px white;
+}

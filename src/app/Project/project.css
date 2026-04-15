@@ -1,0 +1,36 @@
+
+.projects {
+    margin: 50px 200px 100px 200px;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    gap: 20px;
+}
+
+.projects-container li {
+    background-color: #567C8D;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+.search-container {
+    display: grid;
+    place-items: center;
+    margin: 20px;
+}
+
+.search-container input {
+    width: 400px;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: all 0.3s ease;
+}

@@ -1,0 +1,22 @@
+
+.workExperiences {
+    margin: 50px 200px 100px 200px;
+}
+
+.workExperience-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    gap: 20px;
+}
+
+.workExperience-list li {
+    background-color: #567C8D;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+.workExperience-list li img {
+    width: 100%;
+}
